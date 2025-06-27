@@ -9,10 +9,11 @@ function electronsAroundTheCores(dice) {
         return 4;
     }
 
-    if (dice.join(',') === '5,5'){
-        return 8;
+    const count5 = dice.filter(d => d === 5).length;
+
+    if (count5 > 0){
+        return count5 * 4;
     }
   
     return 0;
   }
-  
