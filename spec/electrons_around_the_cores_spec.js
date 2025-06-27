@@ -14,5 +14,9 @@ describe('electronsAroundTheCores', () => {
   it('Für einen Wurf [3,3] soll der Wert 4 zurückgegeben werden', () => {
     expect(electronsAroundTheCores([3,3])).toBe(4);
   });
-  
+
+  it('Für einen Wurf [5,5] soll der Wert 8 zurückgegeben werden', () => {
+  expect(electronsAroundTheCores([5,5])).toBe(8);
+});
+
 });
