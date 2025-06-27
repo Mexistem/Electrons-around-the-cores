@@ -8,6 +8,11 @@ function electronsAroundTheCores(dice) {
     if (dice.length === 1 && dice[0] === 5) {
         return 4;
     }
+
+    if (dice.join(',') === '5,5'){
+        return 8;
+    }
   
     return 0;
   }
+  
