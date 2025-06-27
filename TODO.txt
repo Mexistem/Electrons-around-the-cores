@@ -1,6 +1,6 @@
 Ergebnis-Funktion anlegen
 
-	Signature: int petalsAroundTheRose(int[] dice)
+	Signature: int electronsAroundTheCores(int[] dice)
 
 Tests für einfache Würfelwürfe
 
